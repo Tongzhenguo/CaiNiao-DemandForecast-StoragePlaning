@@ -10,6 +10,7 @@
 窗口9：标签代码片段watch=8,其余片段watch=9    DATEDIFF('2015/08/24',DATE)AS days     9 AS watch
 窗口10：标签代码片段watch=9,其余片段watch=10    DATEDIFF('2015/08/10',DATE)AS days     10 AS watch
 */
+
 /*全国窗口1训练集*/
 CREATE TABLE train_all_window1 AS
 SELECT 1 AS watch,a.item_id,label,
